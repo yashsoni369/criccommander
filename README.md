@@ -1,6 +1,21 @@
+<div align="center">
+
+<img src=".github/assets/hero.svg" alt="CricketCommander — three AI agents react to every ball, live" width="100%" />
+
 # 🏏 CricketCommander
 
-> **Three AI agents. One ball. Live.**
+**Three AI agents. One ball. Live.**
+
+<p>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-19-20232a?style=for-the-badge&logo=react&logoColor=61dafb" />
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-v4-0b1120?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8" />
+  <img alt="Google Gemini" src="https://img.shields.io/badge/Gemini-2.5%20Flash-1a1a2e?style=for-the-badge&logo=googlegemini&logoColor=8e75ff" />
+  <img alt="Upstash Redis" src="https://img.shields.io/badge/Upstash-Redis-0a0d14?style=for-the-badge&logo=upstash&logoColor=00e9a3" />
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-deploy-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+
+</div>
 
 CricketCommander is a real-time IPL companion that turns raw ball-by-ball
 commentary into an electric, broadcast-grade experience. Every delivery is fed

@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
 export async function generatePrediction(matchState: string) {
-  const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
   
   const prompt = `You are a cricket analyst. Given the current match state (score, overs left, wickets, run rate, required rate), output a JSON object:
 {
