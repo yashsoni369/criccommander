@@ -1,7 +1,17 @@
 {
-  "name": "crickcommander",
+  "name": "criccommander",
   "version": "0.1.0",
   "private": true,
+  "description": "Real-time IPL companion where three Gemini-powered AI agents (stats, banter, predictions) react to every ball on a live HUD.",
+  "keywords": [
+    "cricket",
+    "ipl",
+    "ai-agents",
+    "gemini",
+    "nextjs",
+    "live",
+    "real-time"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
