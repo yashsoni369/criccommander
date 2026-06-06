@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
 export async function generateStats(ballEvent: string) {
-  const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
   
   const prompt = `You are a cricket statistician. Given a single ball event (bowler, batter, outcome, score), produce ONE surprising or insightful statistical nugget in ≤ 25 words. Examples:
 - "Bumrah's economy vs left-handers in death overs: 6.2. Lowest in IPL."

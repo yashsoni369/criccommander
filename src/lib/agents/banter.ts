@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
 export async function generateBanter(ballEvent: string) {
-  const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
   
   const prompt = `You are a Mumbai cricket fan with sharp Hinglish wit. Given a ball event, write ONE punchy hot-take or meme caption in Hinglish (Latin script), ≤ 20 words.
 Examples:
